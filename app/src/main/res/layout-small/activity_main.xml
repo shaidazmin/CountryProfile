@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/background_color_one"
+    tools:context="com.example.nz.countryprofile.MainActivity">
+
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        />
+
+
+    <Button
+        android:id="@+id/bangladesh"
+        android:text="Bangladesh"
+        android:textSize="10sp"
+        android:textColor="#2600ff"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/ic_launcher"
+        android:backgroundTint="#76dad5"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp" />
+
+
+    <Button
+        android:id="@+id/japan"
+        android:text="Japan"
+        android:textSize="10sp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="#2600ff"
+        android:backgroundTint="#76dad5"
+        android:layout_width="170sp"
+        android:drawableRight="@drawable/japan_ic_launcher"
+        android:layout_height="50sp" />
+
+    <Button
+        android:id="@+id/canada"
+        android:text="Canada"
+        android:textSize="10sp"
+        android:typeface="serif"
+        android:textColor="#2600ff"
+        android:textStyle="bold"
+        android:backgroundTint="#76dad5"
+        android:drawableRight="@drawable/canada_ic_launcher"
+        android:layout_width="170sp"
+        android:layout_height="50sp" />
+
+
+
+</LinearLayout>

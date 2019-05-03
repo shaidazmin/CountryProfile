@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8sp"
+    android:background="@drawable/background_color_one"
+    tools:context="com.example.nz.countryprofile.MainActivity">
+    
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <AnalogClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            />
+
+
+        <Button
+            android:id="@+id/bangladesh"
+            android:text="Bangladesh"
+            android:textSize="20sp"
+            android:textColor="#2600ff"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/bangladesh_icon"
+            android:backgroundTint="#76dad5"
+            android:layout_width="match_parent"
+            android:layout_height="100sp" />
+
+
+        <Button
+            android:id="@+id/japan"
+            android:text="Japan"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="#2600ff"
+            android:backgroundTint="#76dad5"
+            android:drawableLeft="@drawable/japan_icon"
+            android:layout_width="match_parent"
+            android:layout_height="100sp" />
+
+        <Button
+            android:id="@+id/canada"
+            android:text="Canada"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textColor="#2600ff"
+            android:textStyle="bold"
+            android:backgroundTint="#76dad5"
+            android:drawableLeft="@drawable/canada_icon"
+            android:layout_width="match_parent"
+            android:layout_height="100sp" />
+
+
+
+
+    </LinearLayout>
+
+  
+
+</android.support.constraint.ConstraintLayout>
